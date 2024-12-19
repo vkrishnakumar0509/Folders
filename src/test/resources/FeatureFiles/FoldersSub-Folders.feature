@@ -1,3 +1,4 @@
+@smoke
 Feature: To verify the Folders Sub-Folders functionality of the application
 
   Scenario: Verify that if I create new client and logging into application, No dashboard assigned to you message should be displayed
