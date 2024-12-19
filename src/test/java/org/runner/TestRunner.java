@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		"html:AllReports/HTMLReport/html-report.html",
 		"junit:AllReports/junit/junit-report.xml",
 		"json:AllReports/json/json-report.json"
-		},dryRun=false)
+		},dryRun=false,tags="@smoke")
 
 public class TestRunner {
 
