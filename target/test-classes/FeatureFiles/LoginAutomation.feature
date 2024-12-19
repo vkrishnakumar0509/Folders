@@ -150,11 +150,8 @@ Feature: To verify the Login page functionality of the application
     Given User should launch the portal by enter the custom url
     And user should click on the Sign-in with google and enter invalid credentials
     Then user should be redirected to login page
-    
-    
+
   Scenario: If user tries to sign-in with valid SSO mail for direct client, it should login into application
     Given User should launch the portal by enter the custom url
     And user should click on the Sign-in with linkedin and enter valid credentials
     Then user should be redirecting to homepage
-    
-    

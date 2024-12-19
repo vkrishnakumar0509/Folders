@@ -103,7 +103,6 @@ Feature: To verify the Sign-up page functionality of the application
     And Verify that if user fills all the mandatory fields, it has to redirect to OTP verification page
     And Verify that email should be masked in OTP page
 
-
   Scenario: Check the response when providing an email address already registered
     Given User should launch the portal by enter the url
     And User should click on the Sign-up for free trial button

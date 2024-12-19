@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.037" tests="0" skipped="0" failures="0" errors="0">
+<testsuite name="Cucumber" time="35.944" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To verify the Folders Sub-Folders functionality of the application" name="Verify that after deleting the folder, if user creates the new folder with the same name, it should be created" time="35.803">
+<system-out><![CDATA[
+Given User should launch the portal by enter the url........................passed
+And User should login into the application..................................passed
+And Verify that after deleting the folder, if user creates the new folder with the same name, it should be created.passed
+]]></system-out>
+</testcase>
 </testsuite>

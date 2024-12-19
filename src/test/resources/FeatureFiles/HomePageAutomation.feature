@@ -1,6 +1,5 @@
 Feature: To verify the Homepage functionality of the application
 
-
   Scenario: To verify that if user Login into MTAI application, he/she should be landed into Homepage
     Given User should launch the portal by enter the url
     And User should login into the application
@@ -20,7 +19,7 @@ Feature: To verify the Homepage functionality of the application
     Given User should launch the portal by enter the url
     And User should login into the application
     And user clicks on any of the Feature which is following by Quick access Text, it should be redirected to corresponding webpage
-    
+
   Scenario: To verify that user can able to delete particular feature in Quick access by clicking Remove option which is present in every feature
     Given User should launch the portal by enter the url
     And User should login into the application

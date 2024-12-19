@@ -157,5 +157,5 @@ Feature: To verify the Leftmenu functionality of the application
 
   Scenario: Verify that when Left menu is in Collapsed state and if user clicks on the Dashboard icon, it has to show toaster validation
     Given User should launch the portal by enter the url
-    And User should login into the application
+    And User should login into the application using no dashboard account
     And Verify that when Left menu is in Collapsed state and if user clicks on the Dashboard icon, it has to show toaster validation

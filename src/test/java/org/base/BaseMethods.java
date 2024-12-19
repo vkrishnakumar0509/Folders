@@ -22,9 +22,9 @@ public class BaseMethods {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\KrishnakumarV\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");
-		options.addArguments("--disable-gpu");
-		options.addArguments("--window-size=1920,1080");
+//		options.addArguments("--headless");
+//		options.addArguments("--disable-gpu");
+//		options.addArguments("--window-size=1920,1080");
 		driver = new ChromeDriver(options);
 	}
 
